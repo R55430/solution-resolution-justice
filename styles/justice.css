@@ -1,0 +1,245 @@
+
+body{
+ width: 1170px;
+ margin: auto;  
+}
+/*navber styles*/
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1170px;
+    margin:50px auto;
+}
+.navber-element{
+    font-weight:800;
+    font-size:35px ;
+}
+#element-id{
+    max-width: 34px;
+    max-height: 34px;
+}
+.navber-title a{
+  text-decoration: none;
+  max-width: 117px;
+  max-height: 24px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+.navber-title a img{
+    max-width: 24px;
+    max-height: 24px;
+}
+.navber-title{
+
+}
+.navber-btn{
+    max-width: 220px;
+    max-height: 64px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 50px;
+    background-color: #B68C5A;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*banner styles*/
+.banner{
+    
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/banner.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+.banner-element{
+    max-width: 692px;
+    max-height: 342px;
+margin-left: 239px;
+
+}
+.banner-h1{
+  margin-bottom: 10px;
+   font-weight: 800;
+   font-size: 78px;
+   color: white;
+    
+}
+.banner-p{
+    color: white;
+}
+.banner-form{
+    max-width: 500px;
+    max-height:64px ;
+    padding: 4px ;
+    background-color: white;
+}
+.banner-btn{
+max-width: 150px;
+max-height: 54px;
+cursor: pointer;
+background-color: #B68C5A;
+font-weight: 500;
+font-size: 20px;
+border-radius: 8px;
+
+}
+/*main section styles*/
+/*section1 styles*/
+
+.section1 h3{
+ font-weight: 800;
+ font-size: 2.6rem;
+ margin-top:30px;
+ margin-bottom: 10px;
+
+}
+.section1{
+    text-align: center;
+}
+
+/*section2 styles*/
+.section2-card{
+   display:grid;
+   grid-template-columns:repeat(3, 1fr);
+   text-align: center;
+}
+.section2-card div{
+    margin: 20px;
+}
+.section2 h2{
+    font-weight: 700;
+    font-size:32px ;
+}
+.section2 div p{
+    
+ 
+}
+.section2 img{
+    margin-top: 30px;
+   
+}
+.section2 a img{
+    max-width: 33px;
+    max-height: 33px;
+    margin-top: 30px;
+}
+.card-1 img{
+max-width: 72px;
+max-height: 72px;
+}
+.card-2 img{
+    max-width:62px ;
+    max-height: 72px;
+}
+.card-3 img{
+    max-width:73px ;
+    max-height:71px ;
+}
+.card-4 img{
+    max-width:62px ;
+    max-height:72px ;
+}
+.card-5 img{
+    max-width:90px ;
+    max-height:72px ;
+}
+.card-6 img{
+    max-width:70px ;
+    max-height:72px ;
+}
+
+/*section3 styles*/
+.section3-div1 h2{
+     font-weight: 800;
+     font-size: 40px;
+     margin-top: 50px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+.section3-div1 p{
+    text-align: center;
+}
+.section4-div2-text img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 550px;
+   
+}
+.section4-div2-text h2{
+   font-weight: 700;
+   font-size: 24px;
+   color: white;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   text-align: center;
+}
+.section4-div2-text h4{
+      font-weight: 500;
+      font-size: 18px;
+      color: white;
+      margin-top: 5px;
+      text-align: center;
+}
+.section4-div2-text p{
+    color: white;
+    text-align: center;
+}
+
+.section3-div2{
+    width: 100%;
+    height:500px ;
+    background-image: url(../images/banner.png);
+    
+}
+/*section4 styles*/
+
+.section4-second{
+    max-height:589px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-betweens;
+    margin-top: 40px;
+    gap: 20px;
+}
+.section4-main h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.section4-main p{
+    text-align: center;
+     margin-bottom: 30px;
+}
+.section4-second-text div{
+    max-width:570px ;
+    max-height: 100px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color:#E7E7E7 ;
+}
+#second-text-id{
+    max-height:189px ;
+    margin-top: 0px;
+}
+.section4-second-text div h2{
+ font-weight: 800;
+ font-size: 24px;
+}
+.section4-second-img{
+    max-width: 100%;
+    max-height: 559px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.section4-second-text{
+    max-height:100%;
+}
